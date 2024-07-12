@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+H1,M5Unit Screw Hole,unit_mounting_hole,162.052,-95.631,0.0,top
+J1,Grove I2C,HY2.0-4P,166.725,-95.625,90.0,top
+J2,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,152.637,-95.6,90.0,top
+R1,620,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,151.257,-103.251,180.0,top
+U1,TD62783,SOP-18_7x12.5mm_P1.27mm,112.395,-97.739,-90.0,top
+U2,TD62783,SOP-18_7x12.5mm_P1.27mm,126.873,-94.175,-90.0,top
+U3,~,M5StampS3,93.2,-95.605,-90.0,top
+V1,ld8035e,LD8035E,141.55,-95.625,-90.0,top
