@@ -219,9 +219,12 @@ void setup() {
   pinMode(PIN_G1, OUTPUT);
 
   digitalWrite(PIN_G1, HIGH);
+
+  
 }
 
 void loop() {
+  /*
   leds[0] = CRGB(10, 0, 0);
   FastLED.show();
   delay(500);
@@ -231,6 +234,47 @@ void loop() {
   leds[0] = CRGB(10, 10, 10);
   FastLED.show();
   delay(500);
+  */
+  for (i = 0; i < 10; i++)
+  {
+    displayNumber("9");
+    delay(100);
+    displayNumber("8");
+    delay(100);
+    displayNumber("7");
+    delay(100);
+    displayNumber("6");
+    delay(100);
+    displayNumber("5");
+    delay(100);
+    displayNumber("4");
+    delay(100);
+    displayNumber("3");
+    delay(100);
+    displayNumber("2");
+    delay(100);
+    displayNumber("1");
+    delay(100);
+    displayNumber("0");
+    delay(100);
+    displayNumber(":");
+    delay(100);
+    displayNumber(".");
+    delay(100);
+    displayNumber("-");
+    delay(100);
+    displayNumber(" ");
+  }
+
+  for (int j = 0; j < 20; j++)
+  {
+    displayAnimation(1,50);
+  }
+  for (int j = 0; j < 20; j++)
+  {
+    displayAnimation(0,50);
+  }
+  displayNumber(" ");
 }
 
 
